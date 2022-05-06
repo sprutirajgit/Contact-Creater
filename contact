@@ -1,0 +1,10 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="https://schemas.xmlsoap.org/soap/envelope/"
+xmlns:out="https://soap.sforce.com/2005/09/outbound">
+<soapenv:Header/>
+<soapenv:Body>
+<out:notificationResponse>
+<out:Ack>true</out:Ack>
+</out:notificationResponse>
+</soapenv:Body>
+</soapenv:Envelope
